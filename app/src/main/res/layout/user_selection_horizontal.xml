@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -11,19 +11,19 @@
     android:gravity="center">
 
     <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageRock"
-            android:src="@drawable/rock"
-     />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageRock"
+        android:src="@drawable/rock"
+        />
 
     <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imagepaper"
-            android:layout_below="@id/imageRock"
-            android:src="@drawable/paper"
-            />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagepaper"
+        android:layout_below="@id/imageRock"
+        android:src="@drawable/paper"
+        />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -31,6 +31,6 @@
         android:id="@+id/imagescissors"
         android:layout_below="@id/imagepaper"
         android:src="@drawable/scissors"
-         />
+        />
 
-</RelativeLayout>
+</LinearLayout>
