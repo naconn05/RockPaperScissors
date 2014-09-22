@@ -9,5 +9,6 @@
     <string name="play_again">Play Again</string>
     <string name="computer_choice">Computer chose:</string>
     <string name="title_activity_result">Result</string>
+    <string name="rock">Rock</string>
 
 </resources>
