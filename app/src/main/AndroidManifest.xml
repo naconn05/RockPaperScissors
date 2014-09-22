@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".First_Selection"
+            android:name=".User_Selection"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,12 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DisplayResults"
-            android:label="@string/title_activity_display_results"
-            android:parentActivityName=".First_Selection" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.alex.rockpaperscissors.First_Selection" />
+            android:name=".Result"
+            android:label="@string/title_activity_result" >
         </activity>
     </application>
 
